@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Speed Test</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>⌨️ Typing Speed Test</h1>
+
+        <p class="subtitle">Test your typing speed and accuracy!</p>
+
+        <div class="stats">
+
+            <div class="box">
+                <h3>Time</h3>
+                <p id="timer">60</p>
+            </div>
+
+            <div class="box">
+                <h3>WPM</h3>
+                <p id="wpm">0</p>
+            </div>
+
+            <div class="box">
+                <h3>Accuracy</h3>
+                <p id="accuracy">100%</p>
+            </div>
+
+        </div>
+
+        <div class="text-box">
+            <h3>Type the following text:</h3>
+
+            <p id="sampleText">
+                Learning new skills requires patience and regular practice.
+                Typing fast and accurately can improve your productivity.
+            </p>
+        </div>
+
+        <textarea
+            id="inputText"
+            placeholder="Start typing here..."
+            disabled>
+        </textarea>
+
+        <button id="startBtn">Start Test</button>
+
+        <button id="resetBtn">Reset</button>
+
+        <div class="result">
+            <h2 id="resultMessage"></h2>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
